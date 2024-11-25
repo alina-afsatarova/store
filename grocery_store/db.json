@@ -1,0 +1,155 @@
+[
+{
+  "model": "products.category",
+  "pk": 1,
+  "fields": {
+    "name": "Молочные продукты",
+    "slug": "milk_products",
+    "image": "categories/milk_products.jpg"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 2,
+  "fields": {
+    "name": "Морепродукты",
+    "slug": "seafood",
+    "image": "categories/seafood.jpg"
+  }
+},
+{
+  "model": "products.subcategory",
+  "pk": 1,
+  "fields": {
+    "name": "Замороженная рыба",
+    "slug": "frozen_fish",
+    "image": "subcategories/frozen_fish.jpg",
+    "category": 2
+  }
+},
+{
+  "model": "products.subcategory",
+  "pk": 2,
+  "fields": {
+    "name": "Молоко",
+    "slug": "milk",
+    "image": "subcategories/milk.jpg",
+    "category": 1
+  }
+},
+{
+  "model": "products.subcategory",
+  "pk": 3,
+  "fields": {
+    "name": "Сыр",
+    "slug": "cheese",
+    "image": "subcategories/cheese.jpg",
+    "category": 1
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1,
+  "fields": {
+    "name": "Стейки форели",
+    "slug": "salmon_steaks",
+    "price": 650.0,
+    "category": 2,
+    "subcategory": 1
+  }
+},
+{
+  "model": "products.product",
+  "pk": 2,
+  "fields": {
+    "name": "Молоко 3,2%",
+    "slug": "milk_32",
+    "price": 120.5,
+    "category": 1,
+    "subcategory": 2
+  }
+},
+{
+  "model": "products.product",
+  "pk": 3,
+  "fields": {
+    "name": "Сыр Маасдам",
+    "slug": "maasdam",
+    "price": 220.0,
+    "category": 1,
+    "subcategory": 3
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 1,
+  "fields": {
+    "product": 1,
+    "image": "products/salmon_steaks_169.jpeg"
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 2,
+  "fields": {
+    "product": 1,
+    "image": "products/salmon_steaks_43.jpeg"
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 3,
+  "fields": {
+    "product": 1,
+    "image": "products/salmon_steaks_11.jpeg"
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 4,
+  "fields": {
+    "product": 3,
+    "image": "products/maasdam_169.jpg"
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 5,
+  "fields": {
+    "product": 3,
+    "image": "products/maasdam_43.jpg"
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 6,
+  "fields": {
+    "product": 3,
+    "image": "products/maasdam_11.jpg"
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 7,
+  "fields": {
+    "product": 2,
+    "image": "products/milk32_169.jpg"
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 8,
+  "fields": {
+    "product": 2,
+    "image": "products/milk32_43.jpg"
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 9,
+  "fields": {
+    "product": 2,
+    "image": "products/milk32_11.jpg"
+  }
+}
+]
